@@ -173,15 +173,16 @@
     <script>
         // --- CONFIGURATION (MERGED) ---
         const config = {
-            BOT_TOKEN: '#', // অনুগ্রহ করে এখানে আপনার টেলিগ্রাম বটের টোকেন দিন
-            ADMIN_IDS: [#],
-            BOT_USERNAME: '#',
-            TELEGRAM_CHANNEL_LINK: 'https://t.me/BasicTouchPro',
+            BOT_TOKEN: 7924826654:AAGB_gfE0P2Qu86Z4RM0aiQKuKPkI3-QMPE
+
+            ADMIN_IDS: 6345054478
+            BOT_USERNAME: FreemonyFM_bot
+            TELEGRAM_CHANNEL_LINK:https://t.me/BDlaky3
             ADMIN_SUPPORT_LINK: 'https://t.me/BasicTouch',
-            MONETAG_ZONE_ID: '#',
-            AD_REWARD: 0.001,
+            MONETAG_ZONE_ID: <script src='//libtl.com/sdk.js' data-zone='10107506' data-sdk='show_10107506'></script>
+            AD_REWARD: 15,
             DAILY_AD_LIMIT: 15,
-            MINIMUM_WITHDRAWAL: 0.10,
+            MINIMUM_WITHDRAWAL: 100,
             COOLDOWN_MINUTES: 30,
             // নতুন: উইথড্র মেথডগুলো এখানে যোগ করা হয়েছে
             withdrawalMethods: [
@@ -201,8 +202,8 @@
             },
             REFERRAL_REWARD: 0.01,
             bonusTasks: [
-                { id: 'bonus_01', title: 'আমাদের চ্যানেল ভিজিট করুন', link: 'https://t.me/BasicTouchPro', reward: 0.5, duration: 10 },
-                { id: 'bonus_02', title: 'অন্য অ্যাপটি দেখুন', link: 'https://t.me/BasicTouchProBot', reward: 0.01, duration: 10 }
+                { id: 'bonus_05', title: 'আমাদের চ্যানেল ভিজিট করুন', link: 'https://t.me/BasicTouchPro', reward: 0.5, duration: 10 },
+                { id: 'bonus_30', title: 'অন্য অ্যাপটি দেখুন', link: 'https://t.me/BasicTouchProBot', reward: 0.01, duration: 10 }
             ],
             welcomeNotice: {
                 title: "Welcome!",
@@ -453,8 +454,8 @@
         function loadMonetagSDK() {
             const script = document.createElement('script');
             script.src = `//libtl.com/sdk.js`;
-            script.setAttribute('data-zone', config.MONETAG_ZONE_ID);
-            script.setAttribute('data-sdk', `show_${config.MONETAG_ZONE_ID}`);
+            <script src='//libtl.com/sdk.js' data-zone='10107506' data-sdk='show_10107506'></script>
+            script.setAttribute('data-sdk', `show_$10107506
             script.async = true;
             document.body.appendChild(script);
         }
